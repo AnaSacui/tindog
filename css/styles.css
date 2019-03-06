@@ -9,6 +9,10 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
 
 /* Home Page */
 
@@ -53,4 +57,28 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.feature-box p {
+  color: #8f8f8f;
+}
+
+.feature-box i {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-box i:hover {
+  color: #ff4c68;
 }
