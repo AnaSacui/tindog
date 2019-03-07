@@ -149,3 +149,16 @@ h3 {
   padding: 1% 15%;
   text-align: center;
 }
+
+/* Viewport - Media Queries */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
